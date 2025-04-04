@@ -1,0 +1,103 @@
+
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! Welcome to our food ordering service. How can I assist you today?",
+        "Hi there! How can I help you with your food order?",
+        "Hey! Ready to place your order?"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What do you offer?",
+        "Can I see the menu?",
+        "What's on the menu?"
+      ],
+      "responses": [
+        "Sure! Here's our menu: \n\n1. Burger: Delicious beef patty with lettuce, tomato, and cheese - 8.99 Euro\n2. Pizza: Classic pepperoni pizza with marinara sauce - 10.99 Euro\n3. Salad: Fresh garden salad with mixed greens and choice of dressing - 6.99 Euro\n4. Pasta: Spaghetti with marinara sauce or alfredo sauce - 9.99 Euro\n5. Sandwich: Turkey or ham sandwich with lettuce, tomato, and mayo - 7.99 Euro\n\nPlease let me know if you'd like to order anything!\n",
+        "Let me show you what we have to offer: \n\n1. Burger: Delicious beef patty with lettuce, tomato, and cheese - 8.99 Euro\n2. Pizza: Classic pepperoni pizza with marinara sauce - 10.99 Euro\n3. Salad: Fresh garden salad with mixed greens and choice of dressing - 6.99 Euro\n4. Pasta: Spaghetti with marinara sauce or alfredo sauce - 9.99 Euro\n5. Sandwich: Turkey or ham sandwich with lettuce, tomato, and mayo - 7.99 Euro\n\nPlease let me know if you'd like to order anything!\n",
+        "Take a look at our delicious menu options: \n\n1. Burger: Delicious beef patty with lettuce, tomato, and cheese - 8.99 Euro\n2. Pizza: Classic pepperoni pizza with marinara sauce - 10.99 Euro\n3. Salad: Fresh garden salad with mixed greens and choice of dressing - 6.99 Euro\n4. Pasta: Spaghetti with marinara sauce or alfredo sauce - 9.99 Euro\n5. Sandwich: Turkey or ham sandwich with lettuce, tomato, and mayo - 7.99 Euro\n\nPlease let me know if you'd like to order anything!\n"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "I'd like to place an order",
+        "Can I order some food?",
+        "I'm hungry, what can I get?"
+      ],
+      "responses": [
+        "Great! What would you like to order?",
+        "Sure thing! What can I get for you today?",
+        "Let's get started with your order. What would you like to eat?"
+      ]
+    },
+    {
+      "tag": "take_order",
+      "patterns": [
+        "I'd like to order a [food_item]",
+        "Can you add [food_item] to my order?",
+        "I want [quantity] [food]"
+      ],
+      "responses": [
+        "Got it! I've added [quantity] [food_item] to your order.",
+        "Sure thing! I'll add [quantity] [food_item] to your order.",
+        "Noted! Your order now includes [quantity] [food_item]."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Enjoy your meal!",
+        "No problem! If you need anything else, just let me know.",
+        "You got it! Have a great day!"
+      ]
+    },
+    {
+      "tag": "complete_order",
+      "patterns": [
+        "I am done",
+        "That's it",
+        "I want to complete my order",
+        "Finish order",
+        "That's all for my order",
+        "I'm finished ordering",
+        "I'm done with my order"
+      ],
+      "responses": [
+        "Thank you for your order!. One last step and you are done.",
+        "Your order is almost complete, thank you.",
+        "Great, we've got all your items. Proceeding to last step."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Thank you for choosing us.",
+        "Bye! Hope to see you again soon.",
+        "See you later! Take care."
+      ]
+    }
+  ]
+}
